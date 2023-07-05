@@ -26,7 +26,7 @@ divider = """----------------------------------------------------------
 """
 
 def hasher():
-    texto = input(amarillo + "[*] Introduce el texto a hashear en SHA256S: " + default)
+    texto = input(amarillo + "[*] Introduce el texto a hashear en SHA256: " + default)
     valor_hash = hashlib.sha256(texto.encode()).hexdigest()
     print( verde + "[*] Hash:" + default, valor_hash )
     print(divider)
