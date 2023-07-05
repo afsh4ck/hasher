@@ -2,9 +2,7 @@ import hashlib
 
 def cabecera():
     print(title)
-    print(name)
     print(divider)
-
 
 title = """
 
@@ -17,20 +15,19 @@ $$ |  $$ |$$  __$$ | \____$$\ $$ |  $$ |$$   ____|$$ |
 $$ |  $$ |\$$$$$$$ |$$$$$$$  |$$ |  $$ |\$$$$$$$\ $$ |      
 \__|  \__| \_______|\_______/ \__|  \__| \_______|\__|      
 
-"""
-
-name = """Developed by: afsh4ck
+                                   < Developed by: afsh4ck >
 """
 
 divider = """----------------------------------------------------------
 """
 
-
 def hasher():
-    cabecera()
-    cadena = input("Introduce el texto a hashear en SHA256S: ")
-    valor_hash = hashlib.sha256(cadena.encode()).hexdigest()
+    texto = input("Introduce el texto a hashear en SHA256S: ")
+    valor_hash = hashlib.sha256(texto.encode()).hexdigest()
     print("Hash:", valor_hash)
-    return
+    print(divider)
+    
 
-hasher()
+cabecera()
+while True:
+    hasher()
