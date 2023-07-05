@@ -27,7 +27,6 @@ def hasher():
     print("Hash:", valor_hash)
     print(divider)
     
-
 cabecera()
 while True:
     hasher()
