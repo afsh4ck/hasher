@@ -1,5 +1,9 @@
 import hashlib
 
+verde = "\033[1;32m"
+amarillo = "\033[1;33m"
+default = "\033[0m"
+
 def cabecera():
     print(title)
     print(divider)
@@ -22,9 +26,9 @@ divider = """----------------------------------------------------------
 """
 
 def hasher():
-    texto = input("[*] Introduce el texto a hashear en SHA256S: ")
+    texto = input(amarillo + "[*] Introduce el texto a hashear en SHA256S: " + default)
     valor_hash = hashlib.sha256(texto.encode()).hexdigest()
-    print("[*] Hash:", valor_hash)
+    print( verde + "[*] Hash:" + default, valor_hash )
     print(divider)
     
 cabecera()
