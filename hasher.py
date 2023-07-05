@@ -22,9 +22,9 @@ divider = """----------------------------------------------------------
 """
 
 def hasher():
-    texto = input("Introduce el texto a hashear en SHA256S: ")
+    texto = input("[*] Introduce el texto a hashear en SHA256S: ")
     valor_hash = hashlib.sha256(texto.encode()).hexdigest()
-    print("Hash:", valor_hash)
+    print("[*] Hash:", valor_hash)
     print(divider)
     
 cabecera()
