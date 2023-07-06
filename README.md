@@ -1,7 +1,9 @@
 # hasher
-Programa en python que utiliza la función de hash SHA-256 para cifrar una cadena de texto introducida por el usuario. La función SHA-256 es una función de hash criptográfica segura que toma una entrada de cualquier longitud y devuelve un valor hash de 256 bits que es único para esa entrada.
+"Hasher" es un programa en Python que permite cifrar una cadena de texto utilizando diferentes tipos de algoritmos de cifrado, como NTLM, MD5 y SHA-256. El usuario introduce la cadena de texto y el programa realiza el proceso de cifrado correspondiente, devolviendo como resultado el valor cifrado en formato hexadecimal.
 
-Al ejecutar el programa "Hasher", se le solicitará al usuario que introduzca una cadena de texto que se desea cifrar. Una vez que se ha proporcionado la entrada, el programa utilizará la función SHA-256 para calcular el valor hash de la cadena de texto y lo devolverá como una cadena de texto hexadecimal de 64 caracteres.
+El programa presenta un menú para que el usuario pueda seleccionar el tipo de cifrado que desea utilizar. Además, permite al usuario repetir el proceso de cifrado con otra cadena de texto o salir del programa.
+
+En resumen, "hasher" es una herramienta sencilla y útil para cifrar información de manera segura utilizando diferentes algoritmos de cifrado.
 
 <img width="799" alt="hasher" src="https://github.com/afsh4ck/hasher/assets/132138425/e08a97ff-7e83-4a7f-86d8-1d0a947aafa5">
 
