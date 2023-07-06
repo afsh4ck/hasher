@@ -3,6 +3,7 @@ import hashlib
 verde = "\033[1;32m"
 amarillo = "\033[1;33m"
 magenta = "\033[95m"
+cyan = "\033[96m"
 default = "\033[0m"
 
 
@@ -47,7 +48,7 @@ def hasher(tipo_cifrado):
         valor_hash = hashlib.md5(texto.encode()).hexdigest()
     else:
         valor_hash = hashlib.sha256(texto.encode()).hexdigest()
-    print(verde + "[*] " + tipo_cifrado + " hash:" + default, valor_hash)
+    print(cyan + "[*] " + tipo_cifrado + " hash:" + default, valor_hash)
     print(divider)
 
 
