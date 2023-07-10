@@ -5,7 +5,7 @@ El programa presenta un menú para que el usuario pueda seleccionar el tipo de c
 
 En resumen, "hasher" es una herramienta sencilla y útil para cifrar información de manera segura utilizando diferentes algoritmos de cifrado.
 
-<img width="799" alt="hasher" src="https://github.com/afsh4ck/hasher/assets/132138425/6b9c3b26-1ca3-466b-8614-7ce541749716">
+<img width="854" alt="Captura de pantalla 2023-07-10 a las 12 38 05" src="https://github.com/afsh4ck/hasher/assets/132138425/e5c8c488-458d-447e-bf77-0e5aaad27fa5">
 
 # Instalación
 - git clone https://github.com/afsh4ck/hasher
