@@ -8,6 +8,8 @@ En resumen, "hasher" es una herramienta sencilla y útil para cifrar informació
 <img width="854" alt="Captura de pantalla 2023-07-10 a las 12 38 05" src="https://github.com/afsh4ck/hasher/assets/132138425/e5c8c488-458d-447e-bf77-0e5aaad27fa5">
 
 # Instalación
-- git clone https://github.com/afsh4ck/hasher
-- cd hasher
-- python3 hasher.py
+```
+git clone https://github.com/afsh4ck/hasher
+cd hasher
+python3 hasher.py
+```
