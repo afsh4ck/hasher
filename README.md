@@ -5,7 +5,7 @@ El programa presenta un menú para que el usuario pueda seleccionar el tipo de c
 
 En resumen, "hasher" es una herramienta sencilla y útil para cifrar información de manera segura utilizando diferentes algoritmos de cifrado.
 
-# Tipos de Hash
+## Tipos de Hash
 
 | Nombre        | Ejemplo de Hasher                                                                                      |
 |---------------|--------------------------------------------------------------------------------------------------------|
@@ -23,11 +23,11 @@ En resumen, "hasher" es una herramienta sencilla y útil para cifrar informació
 | BLAKE2b       | 86083963ca9f60b37eebf83e57e37e674d1d6520c4bfe74a0e36b7d61ee2ac09160e445ac1403b7d8d9d6b5e14...          |
 | BLAKE2s       | 4f9e5716c4a9cb85e1cc6e5e4f85c5cbed188c87ac0a14cd870ca005d1fc173d                                       |
 
-# Instalación
+## Instalación
 ```
 git clone https://github.com/afsh4ck/hasher
 cd hasher
 python3 hasher.py
 ```
-
+## Captura
 <img width="713" alt="Captura de pantalla 2023-08-31 a las 13 31 18" src="https://github.com/afsh4ck/hasher/assets/132138425/fc285319-a7ab-4376-9747-6e9a2a4e0762">
