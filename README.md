@@ -34,8 +34,8 @@ python3 hasher.py
 
 ## Créditos
 - Autor:       afsh4ck
-- Instagram:   <a href="https://www.instagram.com/afsh4ck/">afsh4ck</a>
-- Youtube:     <a href="https://youtube.com/@afsh4ck)">afsh4ck</a>
+- Instagram:   <a href="https://www.instagram.com/afsh4ck">afsh4ck</a>
+- Youtube:     <a href="https://youtube.com/@afsh4ck">afsh4ck</a>
 
 ## Soporte
 
